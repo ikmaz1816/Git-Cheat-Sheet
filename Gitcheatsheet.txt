@@ -1,0 +1,69 @@
+#to set the username and password
+git config --global user.name=""
+git config --global user.password=""
+
+#to get the status 
+git status
+
+#to get logs
+git log
+
+#to shorten the commit Id
+git log --oneline
+
+#to track the files 
+git add fileName
+
+#to add all the files
+git add .
+
+#to untrack a file 
+git restore --staged fileName
+
+#to commit a file in local repository
+git commit -m "message"
+
+#to commit on github
+git remote add origin "url"
+git branch -M main
+git push origin main 
+
+#to go a commit back 
+git revert head
+#with this a new history is created and the previous commit that we want to revert is also present in logs
+
+#to revert without head
+git reset --force commitId 
+
+#If you have file with spaces write the file in double quote
+
+#to check diff with previous commit and untracked file 
+git diff 
+
+#to check diff between tracked file and commit 
+git diff staged
+
+#after commit
+git diff commitId1..commitId2
+
+#to create a branch 
+git branch branch-name
+
+#to checkout to the branch
+git checkout branch-name
+
+#to create and move to that branch
+git checkout -b branch-name
+
+#to delete a unmerged branch 
+git branch -D branch-name
+
+#to get list of branch
+git branch 
+
+#to merge a branch
+git merge branch-name 
+
+#to delete a branch
+git delete -d branch-name
+

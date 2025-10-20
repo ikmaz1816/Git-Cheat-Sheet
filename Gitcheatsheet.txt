@@ -1,3 +1,6 @@
+#to save some files in stash 
+git stash 
+
 #to set the username and password
 git config --global user.name=""
 git config --global user.password=""

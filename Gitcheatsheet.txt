@@ -5,6 +5,9 @@ git config --global user.password=""
 #to get the status 
 git status
 
+#it removes remote urls 
+git remote remove origin
+
 #to get logs
 git log
 

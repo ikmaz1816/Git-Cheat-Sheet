@@ -2,6 +2,9 @@
 git config --global user.name=""
 git config --global user.password=""
 
+#to make a git repository
+git init
+
 #to get the status 
 git status
 
@@ -12,13 +15,13 @@ git log
 git log --oneline
 
 #to track the files 
-git add fileName
+git add fileName 
 
 #to add all the files
 git add .
 
 #to untrack a file 
-git restore --staged fileName
+git restore --staged fileName 
 
 #to commit a file in local repository
 git commit -m "message"

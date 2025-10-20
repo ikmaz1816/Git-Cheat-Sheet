@@ -38,10 +38,10 @@ git reset --force commitId
 #If you have file with spaces write the file in double quote
 
 #to check diff with previous commit and untracked file 
-git diff 
+git diff filename
 
 #to check diff between tracked file and commit 
-git diff staged
+git diff --staged filename 
 
 #after commit
 git diff commitId1..commitId2
